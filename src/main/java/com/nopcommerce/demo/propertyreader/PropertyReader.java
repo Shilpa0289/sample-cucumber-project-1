@@ -4,8 +4,8 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 /**
- * Created by Jay Vaghani
- */
+ * Created by Shilpa Patel
+ **/
 public class PropertyReader {
     /*
     Rules for implementing singleton design pattern

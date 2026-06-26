@@ -8,14 +8,14 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 /**
- * Created by Jay Vaghani
- */
+ * Created by Shilpa Patel
+ **/
 public class LoginPage extends Utility {
 
     private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 
     @CacheLookup
-    @FindBy(xpath = "//h1[normalize-space()='Welcome, Please Sign In']")
+    @FindBy(xpath = "//h1[normalize-space()='Welcome, Please Sign In!']")
     WebElement welcomeText;
 
     @CacheLookup

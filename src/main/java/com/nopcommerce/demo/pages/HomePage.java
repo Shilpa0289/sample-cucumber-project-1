@@ -10,8 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 /**
- * Created by Jay Vaghani
- */
+ * Created by Shilpa Patel
+ **/
 public class HomePage extends Utility {
     private static final Logger log = LogManager.getLogger(HomePage.class.getName());
 

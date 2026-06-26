@@ -11,8 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 import java.time.Duration;
 
 /**
- * Created by Jay Vaghani
- */
+ * Created by Shilpa Patel
+ **/
 public class ManageBrowser {
 
     public static WebDriver driver;

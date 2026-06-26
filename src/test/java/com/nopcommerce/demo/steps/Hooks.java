@@ -6,10 +6,12 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
-/**
- * Created by Jay Vaghani
- */
-public class Hooks extends Utility {
+
+public class /**
+ * Created by Shilpa Patel
+ **/
+
+Hooks extends Utility {
 
     @Before
     public void setUp(){

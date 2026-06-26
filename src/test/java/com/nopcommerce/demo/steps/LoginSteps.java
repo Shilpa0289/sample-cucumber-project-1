@@ -1,5 +1,4 @@
 package com.nopcommerce.demo.steps;
-
 import com.nopcommerce.demo.pages.HomePage;
 import com.nopcommerce.demo.pages.LoginPage;
 import io.cucumber.java.en.And;
@@ -9,8 +8,8 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 
 /**
- * Created by Jay Vaghani
- */
+ * Created by Shilpa Patel
+ **/
 public class LoginSteps {
     @Given("I am on homepage")
     public void iAmOnHomepage() {
@@ -23,7 +22,7 @@ public class LoginSteps {
 
     @Then("I should navigate to login page successfully")
     public void iShouldNavigateToLoginPageSuccessfully() {
-        String expectedText = "Welcome, Please Sign In";
+        String expectedText = "Welcome, Please Sign In!";
         String actualText = new LoginPage().getWelcomeText();
         Assert.assertEquals(actualText, expectedText, "Login page not displayed");
     }
