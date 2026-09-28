@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
        glue = "com/nopcommerce/demo/steps",         //  Package path   //
         plugin = {"html:target/cucumber-reports/cucumber.html",    //  plugin for generating HTML report//
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, //Extent report//
-        tags = "@author_Shilpa"
+        tags = "@Test123"
 )
 public class RunCukeTest extends AbstractTestNGCucumberTests {
 
